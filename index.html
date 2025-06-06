@@ -1,11 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Docker</title>
+    <title>Лабораторна робота - Програмна Архітектура ІС</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <div class="container">
+        <header class="header">
+            <h1>Лабораторна робота</h1>
+            <p>Програмна Архітектура Інформаційних Систем</p>
+            <div class="completion-badge">✅ Успішно завершено</div>
+        </header>
+
+        <section class="lab-steps">
+            <div class="step">
+                <span class="step-number">1</span>
+                <div class="step-content">
+                    <h3 class="step-title">📁 Створення локальної папки</h3>
+                    <p class="step-description">
+                        Створив локально папку з статичними файлами, включаючи index.html. 
+                        Підготував базову структуру веб-сайту з необхідними HTML, CSS та іншими статичними ресурсами.
+                    </p>
+                </div>
+            </div>
+
+            <div class="step">
+                <span class="step-number">2</span>
+                <div class="step-content">
+                    <h3 class="step-title"><span class="docker-icon">🐳</span>Створення Dockerfile</h3>
+                    <p class="step-description">
+                        Розробив Dockerfile для розгортання сайту з використанням nginx проксі. 
+                        Налаштував контейнеризацію для забезпечення портативності та легкого розгортання додатку.
+                    </p>
+                </div>
+            </div>
+
+            <div class="step">
+                <span class="step-number">3</span>
+                <div class="step-content">
+                    <h3 class="step-title"><span class="docker-icon">📦</span>Збірка та публікація Docker image</h3>
+                    <p class="step-description">
+                        Збілдив Docker image та запушив його на DockerHub. 
+                        Створив персональний репозиторій для зберігання образу додатку та забезпечення доступу з хмарних платформ.
+                    </p>
+                </div>
+            </div>
+
+            <div class="step">
+                <span class="step-number">4</span>
+                <div class="step-content">
+                    <h3 class="step-title"><span class="cloud-icon">☁️</span>Конфігурація Cloud провайдера</h3>
+                    <p class="step-description">
+                        Сконфігурував Cloud провайдер для інтеграції з імеджем сайту на DockerHub. 
+                        Використав платформу Railway.com (або альтернативно Google Cloud, Azure, AWS) для автоматичного розгортання.
+                    </p>
+                </div>
+            </div>
+
+            <div class="step">
+                <span class="step-number">5</span>
+                <div class="step-content">
+                    <h3 class="step-title">🚀 Розгортання в хмарі</h3>
+                    <p class="step-description">
+                        Успішно розгорнув імедж на Cloud провайдері. 
+                        Налаштував автоматичне розгортання та масштабування додатку в хмарному середовищі.
+                    </p>
+                </div>
+            </div>
+
+            <div class="step">
+                <span class="step-number">6</span>
+                <div class="step-content">
+                    <h3 class="step-title">🌐 Запуск сайту в інтернеті</h3>
+                    <p class="step-description">
+                        Відкрив та протестував роботу сайту в інтернеті. 
+                        Переконався у правильній роботі всіх компонентів та доступності ресурсу для користувачів з мережі.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <div class="tech-stack">
+            <span class="tech-badge">Docker</span>
+            <span class="tech-badge">DockerHub</span>
+            <span class="tech-badge">Nginx</span>
+            <span class="tech-badge">HTML/CSS</span>
+            <span class="tech-badge">Railway.com</span>
+            <span class="tech-badge">Cloud Computing</span>
+            <span class="tech-badge">DevOps</span>
+        </div>
+
+        <footer class="footer">
+            <p>Лабораторна робота успішно виконана з використанням сучасних технологій контейнеризації та хмарного розгортання</p>
+        </footer>
+    </div>
 </body>
 </html>
